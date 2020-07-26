@@ -1,0 +1,105 @@
+[33mcommit a47649730560c8f5bd179039f88c64e6f5a8441c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Gerardo Gomez <gerardo_andres272@hotmail.com>
+Date:   Sun Jul 26 02:57:56 2020 -0430
+
+    Primera version del genio de la lampara
+
+ acertijos.html                |   49 [32m+[m
+ estilos.css                   |  284 [32m++++[m
+ "imagenes/100a\303\261os.jpg" |  Bin [31m0[m -> [32m10936[m bytes
+ imagenes/Efreet.jpg           |  Bin [31m0[m -> [32m8666[m bytes
+ imagenes/adivina.jpg          |  Bin [31m0[m -> [32m4192[m bytes
+ imagenes/animales.jpg         |  Bin [31m0[m -> [32m128857[m bytes
+ imagenes/arca.jpg             |  Bin [31m0[m -> [32m4955[m bytes
+ imagenes/ayudar.jpg           |  Bin [31m0[m -> [32m8690[m bytes
+ imagenes/batman.jpg           |  Bin [31m0[m -> [32m64041[m bytes
+ imagenes/biblioteca.jpg       |  Bin [31m0[m -> [32m206109[m bytes
+ imagenes/caliz.jpg            |  Bin [31m0[m -> [32m4490[m bytes
+ imagenes/chavez.jpg           |  Bin [31m0[m -> [32m52486[m bytes
+ imagenes/chinos.jpg           |  Bin [31m0[m -> [32m115296[m bytes
+ imagenes/creador.jpg          |  Bin [31m0[m -> [32m160269[m bytes
+ imagenes/dao.jpg              |  Bin [31m0[m -> [32m58684[m bytes
+ imagenes/defensores.jpg       |  Bin [31m0[m -> [32m241855[m bytes
+ imagenes/deseo1.jpg           |  Bin [31m0[m -> [32m44534[m bytes
+ imagenes/djinn1.jpg           |  Bin [31m0[m -> [32m116899[m bytes
+ imagenes/dr1.jpg              |  Bin [31m0[m -> [32m5321[m bytes
+ imagenes/dr2.jpg              |  Bin [31m0[m -> [32m5305[m bytes
+ imagenes/escobar.jpg          |  Bin [31m0[m -> [32m120247[m bytes
+ imagenes/evil.jpg             |  Bin [31m0[m -> [32m17542[m bytes
+ imagenes/evil2.jpg            |  Bin [31m0[m -> [32m7216[m bytes
+ imagenes/evil4.gif            |  Bin [31m0[m -> [32m101252[m bytes
+ imagenes/evil5.gif            |  Bin [31m0[m -> [32m504690[m bytes
+ imagenes/face.jpg             |  Bin [31m0[m -> [32m6367[m bytes
+ imagenes/fecha.jpg            |  Bin [31m0[m -> [32m8963[m bytes
+ imagenes/fenix.png            |  Bin [31m0[m -> [32m85831[m bytes
+ imagenes/fenix2.jpg           |  Bin [31m0[m -> [32m58660[m bytes
+ imagenes/fitness.jpg          |  Bin [31m0[m -> [32m9103[m bytes
+ imagenes/fuente1.jpg          |  Bin [31m0[m -> [32m155510[m bytes
+ imagenes/gema.jpg             |  Bin [31m0[m -> [32m87444[m bytes
+ imagenes/genio1.jpg           |  Bin [31m0[m -> [32m43766[m bytes
+ imagenes/genio10.jpg          |  Bin [31m0[m -> [32m5813[m bytes
+ imagenes/genio11.jpg          |  Bin [31m0[m -> [32m93687[m bytes
+ imagenes/genio12.jpg          |  Bin [31m0[m -> [32m18327[m bytes
+ imagenes/genio2.jpg           |  Bin [31m0[m -> [32m33398[m bytes
+ imagenes/genio3.jpg           |  Bin [31m0[m -> [32m7418[m bytes
+ imagenes/genio4.jpg           |  Bin [31m0[m -> [32m219821[m bytes
+ imagenes/genio5.jpg           |  Bin [31m0[m -> [32m70684[m bytes
+ imagenes/genio6.jpg           |  Bin [31m0[m -> [32m7061[m bytes
+ imagenes/genio7.jpg           |  Bin [31m0[m -> [32m8895[m bytes
+ imagenes/genio8.jpg           |  Bin [31m0[m -> [32m7099[m bytes
+ imagenes/genio9.jpg           |  Bin [31m0[m -> [32m10024[m bytes
+ imagenes/guardian.jpg         |  Bin [31m0[m -> [32m6014[m bytes
+ imagenes/hamaca.jpg           |  Bin [31m0[m -> [32m10669[m bytes
+ imagenes/hola.jpg             |  Bin [31m0[m -> [32m190967[m bytes
+ imagenes/inmunidad.jpg        |  Bin [31m0[m -> [32m7776[m bytes
+ imagenes/inte.jpg             |  Bin [31m0[m -> [32m52772[m bytes
+ imagenes/invisible.png        |  Bin [31m0[m -> [32m178373[m bytes
+ imagenes/isla.jpg             |  Bin [31m0[m -> [32m58330[m bytes
+ imagenes/isla1.jpg            |  Bin [31m0[m -> [32m20502[m bytes
+ imagenes/isla2.png            |  Bin [31m0[m -> [32m571513[m bytes
+ imagenes/lampara1.jpg         |  Bin [31m0[m -> [32m57701[m bytes
+ imagenes/lampara2.jpg         |  Bin [31m0[m -> [32m89383[m bytes
+ imagenes/lechuza1.jpg         |  Bin [31m0[m -> [32m27013[m bytes
+ imagenes/lechuza2.jpg         |  Bin [31m0[m -> [32m78862[m bytes
+ imagenes/maduro.jpg           |  Bin [31m0[m -> [32m214090[m bytes
+ imagenes/mansion.jpg          |  Bin [31m0[m -> [32m20159[m bytes
+ imagenes/mapa.jpg             |  Bin [31m0[m -> [32m14917[m bytes
+ imagenes/mojo.jpg             |  Bin [31m0[m -> [32m6472[m bytes
+ imagenes/muerte.png           |  Bin [31m0[m -> [32m146359[m bytes
+ imagenes/namek.jpg            |  Bin [31m0[m -> [32m11557[m bytes
+ imagenes/necro.jpg            |  Bin [31m0[m -> [32m100336[m bytes
+ imagenes/negocios.jpg         |  Bin [31m0[m -> [32m21004[m bytes
+ imagenes/onepiece.jpg         |  Bin [31m0[m -> [32m58043[m bytes
+ imagenes/onepiece1.jpg        |  Bin [31m0[m -> [32m102040[m bytes
+ imagenes/paciencia1.jpg       |  Bin [31m0[m -> [32m41895[m bytes
+ imagenes/paciencia2.jpg       |  Bin [31m0[m -> [32m11003[m bytes
+ imagenes/pais1.jpg            |  Bin [31m0[m -> [32m14644[m bytes
+ imagenes/paz.jpg              |  Bin [31m0[m -> [32m20487[m bytes
+ imagenes/pc.jpg               |  Bin [31m0[m -> [32m96545[m bytes
+ imagenes/perro1.jpg           |  Bin [31m0[m -> [32m9955[m bytes
+ imagenes/perro2.jpg           |  Bin [31m0[m -> [32m47337[m bytes
+ imagenes/perro3.jpg           |  Bin [31m0[m -> [32m184815[m bytes
+ imagenes/perro4.jpg           |  Bin [31m0[m -> [32m101205[m bytes
+ imagenes/perro5.jpg           |  Bin [31m0[m -> [32m55433[m bytes
+ imagenes/piedra.jpg           |  Bin [31m0[m -> [32m10405[m bytes
+ imagenes/posion.jpg           |  Bin [31m0[m -> [32m7601[m bytes
+ imagenes/que.jpg              |  Bin [31m0[m -> [32m14467[m bytes
+ imagenes/rules.jpg            |  Bin [31m0[m -> [32m8198[m bytes
+ imagenes/sandwich.jpg         |  Bin [31m0[m -> [32m97322[m bytes
+ imagenes/sayayin1.png         |  Bin [31m0[m -> [32m44709[m bytes
+ imagenes/sayayin2.jpg         |  Bin [31m0[m -> [32m8276[m bytes
+ imagenes/shenlong.jpg         |  Bin [31m0[m -> [32m10696[m bytes
+ imagenes/shenlong2.jpg        |  Bin [31m0[m -> [32m18657[m bytes
+ imagenes/sirena.jpg           |  Bin [31m0[m -> [32m62519[m bytes
+ imagenes/todopoderoso.jpg     |  Bin [31m0[m -> [32m160079[m bytes
+ imagenes/trump.jpg            |  Bin [31m0[m -> [32m8213[m bytes
+ imagenes/trump1.jpg           |  Bin [31m0[m -> [32m210050[m bytes
+ imagenes/vene.jpg             |  Bin [31m0[m -> [32m50516[m bytes
+ imagenes/viajar.jpg           |  Bin [31m0[m -> [32m29230[m bytes
+ imagenes/vortice.jpg          |  Bin [31m0[m -> [32m6814[m bytes
+ imagenes/walking.jpg          |  Bin [31m0[m -> [32m97430[m bytes
+ imagenes/war.jpg              |  Bin [31m0[m -> [32m117412[m bytes
+ imagenes/wishcompleted1.jpg   |  Bin [31m0[m -> [32m122008[m bytes
+ imagenes/you.jpg              |  Bin [31m0[m -> [32m77019[m bytes
+ javascript/acertijos.js       | 3605 [32m+++++++++++++++++++++++++++++++++++++++++[m
+ 98 files changed, 3938 insertions(+)
